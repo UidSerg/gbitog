@@ -34,5 +34,4 @@ return resultArray;
 }
 int N = 3; //длина элента для нового массива
 string [] resultArray = LengthArray(elementArray, N);
-if(resultArray.Length == 0) Console.WriteLine($"[{String.Join(",", elementArray)}] -> в массиве нет элементов длиной меньше {N} символов");
-else Console.WriteLine($"[{String.Join(",", elementArray)}] -> [{String.Join(",", resultArray)}]");
+Console.WriteLine($"[{String.Join(",", elementArray)}] -> [{String.Join(",", resultArray)}]");
